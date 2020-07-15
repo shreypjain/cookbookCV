@@ -7,65 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A52309E24BBFC0200D1D7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52309D24BBFC0200D1D7D4 /* AppDelegate.swift */; };
-		6A5230A024BBFC0200D1D7D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52309F24BBFC0200D1D7D4 /* SceneDelegate.swift */; };
-		6A5230A224BBFC0200D1D7D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5230A124BBFC0200D1D7D4 /* ViewController.swift */; };
-		6A5230A524BBFC0200D1D7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5230A324BBFC0200D1D7D4 /* Main.storyboard */; };
-		6A5230A724BBFC0400D1D7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5230A624BBFC0400D1D7D4 /* Assets.xcassets */; };
-		6A5230AA24BBFC0400D1D7D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5230A824BBFC0400D1D7D4 /* LaunchScreen.storyboard */; };
-		6A5230B224BBFE4100D1D7D4 /* cookbookCV.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5230B124BBFE4100D1D7D4 /* cookbookCV.png */; };
+		60AFA52743B0663B040B91A0 /* Pods_cookbookCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FBA572EB13B182DCDF6F5 /* Pods_cookbookCV.framework */; };
+		6A7E1BD724BF7BDB00EFE134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */; };
+		6A7E1BD924BF7BDB00EFE134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */; };
+		6A7E1BDB24BF7BDB00EFE134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */; };
+		6A7E1BDE24BF7BDB00EFE134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BDC24BF7BDB00EFE134 /* Main.storyboard */; };
+		6A7E1BE024BF7BDD00EFE134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BDF24BF7BDD00EFE134 /* Assets.xcassets */; };
+		6A7E1BE324BF7BDD00EFE134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BE124BF7BDD00EFE134 /* LaunchScreen.storyboard */; };
+		6A7E1BEB24BF7C0E00EFE134 /* cookbookCV 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */; };
+		6A7E1BED24BF836000EFE134 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BEC24BF836000EFE134 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A52309A24BBFC0200D1D7D4 /* cookbookCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookbookCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A52309D24BBFC0200D1D7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A52309F24BBFC0200D1D7D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A5230A124BBFC0200D1D7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A5230A424BBFC0200D1D7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A5230A624BBFC0400D1D7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6A5230A924BBFC0400D1D7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6A5230AB24BBFC0400D1D7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A5230B124BBFE4100D1D7D4 /* cookbookCV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookbookCV.png; sourceTree = "<group>"; };
+		212E6E1A4FDD5526208EA435 /* Pods-cookbookCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbookCV.debug.xcconfig"; path = "Target Support Files/Pods-cookbookCV/Pods-cookbookCV.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7E1BD324BF7BDB00EFE134 /* cookbookCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookbookCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A7E1BDD24BF7BDB00EFE134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A7E1BDF24BF7BDD00EFE134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A7E1BE224BF7BDD00EFE134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A7E1BE424BF7BDD00EFE134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cookbookCV 2.png"; sourceTree = "<group>"; };
+		6A7E1BEC24BF836000EFE134 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D86587F525ACEC4DCD78B006 /* Pods-cookbookCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbookCV.release.xcconfig"; path = "Target Support Files/Pods-cookbookCV/Pods-cookbookCV.release.xcconfig"; sourceTree = "<group>"; };
+		FC3FBA572EB13B182DCDF6F5 /* Pods_cookbookCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookbookCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A52309724BBFC0200D1D7D4 /* Frameworks */ = {
+		6A7E1BD024BF7BDB00EFE134 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AFA52743B0663B040B91A0 /* Pods_cookbookCV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A52309124BBFC0200D1D7D4 = {
+		1E2DC8A71BFE0BC7DB462AA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A52309C24BBFC0200D1D7D4 /* cookbookCV */,
-				6A52309B24BBFC0200D1D7D4 /* Products */,
+				FC3FBA572EB13B182DCDF6F5 /* Pods_cookbookCV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53314DCB0D23022FA24071A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				212E6E1A4FDD5526208EA435 /* Pods-cookbookCV.debug.xcconfig */,
+				D86587F525ACEC4DCD78B006 /* Pods-cookbookCV.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A7E1BCA24BF7BDB00EFE134 = {
+			isa = PBXGroup;
+			children = (
+				6A7E1BD524BF7BDB00EFE134 /* cookbookCV */,
+				6A7E1BD424BF7BDB00EFE134 /* Products */,
+				53314DCB0D23022FA24071A8 /* Pods */,
+				1E2DC8A71BFE0BC7DB462AA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		6A52309B24BBFC0200D1D7D4 /* Products */ = {
+		6A7E1BD424BF7BDB00EFE134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A52309A24BBFC0200D1D7D4 /* cookbookCV.app */,
+				6A7E1BD324BF7BDB00EFE134 /* cookbookCV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A52309C24BBFC0200D1D7D4 /* cookbookCV */ = {
+		6A7E1BD524BF7BDB00EFE134 /* cookbookCV */ = {
 			isa = PBXGroup;
 			children = (
-				6A52309D24BBFC0200D1D7D4 /* AppDelegate.swift */,
-				6A52309F24BBFC0200D1D7D4 /* SceneDelegate.swift */,
-				6A5230A124BBFC0200D1D7D4 /* ViewController.swift */,
-				6A5230A324BBFC0200D1D7D4 /* Main.storyboard */,
-				6A5230A624BBFC0400D1D7D4 /* Assets.xcassets */,
-				6A5230A824BBFC0400D1D7D4 /* LaunchScreen.storyboard */,
-				6A5230B124BBFE4100D1D7D4 /* cookbookCV.png */,
-				6A5230AB24BBFC0400D1D7D4 /* Info.plist */,
+				6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */,
+				6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */,
+				6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */,
+				6A7E1BEC24BF836000EFE134 /* Podfile */,
+				6A7E1BDC24BF7BDB00EFE134 /* Main.storyboard */,
+				6A7E1BDF24BF7BDD00EFE134 /* Assets.xcassets */,
+				6A7E1BE124BF7BDD00EFE134 /* LaunchScreen.storyboard */,
+				6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */,
+				6A7E1BE424BF7BDD00EFE134 /* Info.plist */,
 			);
 			path = cookbookCV;
 			sourceTree = "<group>";
@@ -73,13 +101,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A52309924BBFC0200D1D7D4 /* cookbookCV */ = {
+		6A7E1BD224BF7BDB00EFE134 /* cookbookCV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5230AE24BBFC0400D1D7D4 /* Build configuration list for PBXNativeTarget "cookbookCV" */;
+			buildConfigurationList = 6A7E1BE724BF7BDD00EFE134 /* Build configuration list for PBXNativeTarget "cookbookCV" */;
 			buildPhases = (
-				6A52309624BBFC0200D1D7D4 /* Sources */,
-				6A52309724BBFC0200D1D7D4 /* Frameworks */,
-				6A52309824BBFC0200D1D7D4 /* Resources */,
+				745F2FA76F4B3A5A42AF8D07 /* [CP] Check Pods Manifest.lock */,
+				6A7E1BCF24BF7BDB00EFE134 /* Sources */,
+				6A7E1BD024BF7BDB00EFE134 /* Frameworks */,
+				6A7E1BD124BF7BDB00EFE134 /* Resources */,
+				5ADBD1E4C32D7E83771BEABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,25 +117,25 @@
 			);
 			name = cookbookCV;
 			productName = cookbookCV;
-			productReference = 6A52309A24BBFC0200D1D7D4 /* cookbookCV.app */;
+			productReference = 6A7E1BD324BF7BDB00EFE134 /* cookbookCV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6A52309224BBFC0200D1D7D4 /* Project object */ = {
+		6A7E1BCB24BF7BDB00EFE134 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Shrey Jain";
 				TargetAttributes = {
-					6A52309924BBFC0200D1D7D4 = {
+					6A7E1BD224BF7BDB00EFE134 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 6A52309524BBFC0200D1D7D4 /* Build configuration list for PBXProject "cookbookCV" */;
+			buildConfigurationList = 6A7E1BCE24BF7BDB00EFE134 /* Build configuration list for PBXProject "cookbookCV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +143,99 @@
 				en,
 				Base,
 			);
-			mainGroup = 6A52309124BBFC0200D1D7D4;
-			productRefGroup = 6A52309B24BBFC0200D1D7D4 /* Products */;
+			mainGroup = 6A7E1BCA24BF7BDB00EFE134;
+			productRefGroup = 6A7E1BD424BF7BDB00EFE134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A52309924BBFC0200D1D7D4 /* cookbookCV */,
+				6A7E1BD224BF7BDB00EFE134 /* cookbookCV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A52309824BBFC0200D1D7D4 /* Resources */ = {
+		6A7E1BD124BF7BDB00EFE134 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5230AA24BBFC0400D1D7D4 /* LaunchScreen.storyboard in Resources */,
-				6A5230B224BBFE4100D1D7D4 /* cookbookCV.png in Resources */,
-				6A5230A724BBFC0400D1D7D4 /* Assets.xcassets in Resources */,
-				6A5230A524BBFC0200D1D7D4 /* Main.storyboard in Resources */,
+				6A7E1BED24BF836000EFE134 /* Podfile in Resources */,
+				6A7E1BE324BF7BDD00EFE134 /* LaunchScreen.storyboard in Resources */,
+				6A7E1BEB24BF7C0E00EFE134 /* cookbookCV 2.png in Resources */,
+				6A7E1BE024BF7BDD00EFE134 /* Assets.xcassets in Resources */,
+				6A7E1BDE24BF7BDB00EFE134 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ADBD1E4C32D7E83771BEABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cookbookCV/Pods-cookbookCV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cookbookCV/Pods-cookbookCV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cookbookCV/Pods-cookbookCV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		745F2FA76F4B3A5A42AF8D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cookbookCV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6A52309624BBFC0200D1D7D4 /* Sources */ = {
+		6A7E1BCF24BF7BDB00EFE134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5230A224BBFC0200D1D7D4 /* ViewController.swift in Sources */,
-				6A52309E24BBFC0200D1D7D4 /* AppDelegate.swift in Sources */,
-				6A5230A024BBFC0200D1D7D4 /* SceneDelegate.swift in Sources */,
+				6A7E1BDB24BF7BDB00EFE134 /* ViewController.swift in Sources */,
+				6A7E1BD724BF7BDB00EFE134 /* AppDelegate.swift in Sources */,
+				6A7E1BD924BF7BDB00EFE134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6A5230A324BBFC0200D1D7D4 /* Main.storyboard */ = {
+		6A7E1BDC24BF7BDB00EFE134 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A5230A424BBFC0200D1D7D4 /* Base */,
+				6A7E1BDD24BF7BDB00EFE134 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6A5230A824BBFC0400D1D7D4 /* LaunchScreen.storyboard */ = {
+		6A7E1BE124BF7BDD00EFE134 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A5230A924BBFC0400D1D7D4 /* Base */,
+				6A7E1BE224BF7BDD00EFE134 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +243,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6A5230AC24BBFC0400D1D7D4 /* Debug */ = {
+		6A7E1BE524BF7BDD00EFE134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		6A5230AD24BBFC0400D1D7D4 /* Release */ = {
+		6A7E1BE624BF7BDD00EFE134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,8 +357,9 @@
 			};
 			name = Release;
 		};
-		6A5230AF24BBFC0400D1D7D4 /* Debug */ = {
+		6A7E1BE824BF7BDD00EFE134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212E6E1A4FDD5526208EA435 /* Pods-cookbookCV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,8 +376,9 @@
 			};
 			name = Debug;
 		};
-		6A5230B024BBFC0400D1D7D4 /* Release */ = {
+		6A7E1BE924BF7BDD00EFE134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86587F525ACEC4DCD78B006 /* Pods-cookbookCV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,25 +398,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A52309524BBFC0200D1D7D4 /* Build configuration list for PBXProject "cookbookCV" */ = {
+		6A7E1BCE24BF7BDB00EFE134 /* Build configuration list for PBXProject "cookbookCV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5230AC24BBFC0400D1D7D4 /* Debug */,
-				6A5230AD24BBFC0400D1D7D4 /* Release */,
+				6A7E1BE524BF7BDD00EFE134 /* Debug */,
+				6A7E1BE624BF7BDD00EFE134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A5230AE24BBFC0400D1D7D4 /* Build configuration list for PBXNativeTarget "cookbookCV" */ = {
+		6A7E1BE724BF7BDD00EFE134 /* Build configuration list for PBXNativeTarget "cookbookCV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5230AF24BBFC0400D1D7D4 /* Debug */,
-				6A5230B024BBFC0400D1D7D4 /* Release */,
+				6A7E1BE824BF7BDD00EFE134 /* Debug */,
+				6A7E1BE924BF7BDD00EFE134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6A52309224BBFC0200D1D7D4 /* Project object */;
+	rootObject = 6A7E1BCB24BF7BDB00EFE134 /* Project object */;
 }
