@@ -7,14 +7,14 @@ class YOLO():
     def main(self, image_path):
         '''
         Input: String of image path
-        Output: list of objects detected
+        Output: set of objects detected
         '''
         # image = input("Enter the directory of the image: ")
         self.image = image_path
         if self.image:
             imgs = (self.image_detect(self.image))
             # cv2.destroyAllWindows()
-            return imgs
+            return list(set(imgs))
         return ["ERROR"]
 
     def load_yolo(self):
