@@ -16,6 +16,8 @@ def func():
             'success': True,
             'message': img
         }
+    else:
+        return
         #the return statement of the machine learning and web scraping will go up there^
         #I will implement a try catch later
 
