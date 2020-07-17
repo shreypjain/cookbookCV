@@ -44,8 +44,8 @@ def get_recipes(inputs):
                     output.append(recipe)
     else:
         print (f'Sorry there are no recipes for {inputs}')
-    return output
+    return str(output[0])
 
 available = ['Water', 'Oil', 'Bread', 'Garlic']
 
-get_recipes(inputs = available)
+print(get_recipes(inputs = available))
