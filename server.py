@@ -23,3 +23,6 @@ def func():
         #the return statement of the machine learning and web scraping will go up there^
         #I will implement a try catch later
 
+if __name__ == "__main__":
+    app.run(debug=True,port=8000)
+
