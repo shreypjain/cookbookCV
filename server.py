@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET','POST'])
 def func():
     if request.method == 'POST':
+        output = []
         if 'file' not in request.files:
             return "no files found"
         elif request.files['files']:
@@ -12,12 +13,13 @@ def func():
         #img is the file for the image that is sent in a request from the front end
         img = request.files['image']
         #general error handling for our program
-        return {
-            'success': True,
-            'message': img
-        }
+        for i in someRet:
+            output.append({
+                'recipe': str(i)
+            })
+        return output
     else:
-        return
+        return "not a get request"
         #the return statement of the machine learning and web scraping will go up there^
         #I will implement a try catch later
 
