@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('../data/recipes.csv')
+df = pd.read_csv('data/recipes.csv')
 
 possibilities = []
 output = []
@@ -48,4 +48,4 @@ def get_recipes(inputs):
 
 available = ['Water', 'Oil', 'Bread', 'Garlic']
 
-get_recipes(inputs = available)
+print(get_recipes(inputs = available))
