@@ -11,7 +11,7 @@ import Alamofire
 
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     var imagePicker: UIImagePickerController!
-    let url = "https://localhost:3000/"
+    let url = "https://localhost:8000/"
     
     @IBOutlet weak var imageView: UIImageView!
     
