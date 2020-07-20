@@ -1,20 +1,45 @@
 from flask import Flask, request
+from werkzeug.utils import secure_filename
 import os
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'img'
 
 @app.route('/', methods=['GET','POST'])
 def func():
     if request.method == 'POST':
-        output = []
-        if 'file' not in request.files:
-            return "no files found"
-        elif request.files['files']:
-            return "no file uploaded, or wrong name constraint"
-        #img is the file for the image that is sent in a request from the front end
         img = request.files['image']
-        
+        filename = secure_filename(img.filename)
+        var = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        img.save(var)
+        return("happened")
+    else:
+        return '''<div class="container">
+  <div class="row">
+    <div class="col">
+
+      <h1>Upload an image</h1>
+      <hr>
+
+      <form action="/" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label>Select image</label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" name="image" id="image">
+            <label class="custom-file-label" for="image">Select image...</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+
+      </form>
+
+    </div>
+  </div>
+</div>'''
 
 if __name__ == "__main__":
-    app.run(debug=True,port=8000)
+    app.debug = True
+    app.run(host='0.0.0.0', port=8000)
 
