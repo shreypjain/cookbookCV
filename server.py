@@ -1,6 +1,8 @@
 from flask import Flask, request
 from werkzeug.utils import secure_filename
-import os
+import os, socket
+
+host = socket.gethostname()
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'img'
@@ -41,5 +43,6 @@ def func():
 
 if __name__ == "__main__":
     app.debug = True
-    app.run(host='0.0.0.0', port=8000)
+    ip = socket.gethostbyname(host)
+    app.run(host=ip, port=8000)
 
