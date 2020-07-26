@@ -110,4 +110,4 @@ class YOLO():
         return [classes[i] for i in class_ids]
 
 
-# print(YOLO().main("/Users/paromitadatta/Desktop/darknet/data/foods.jpg")) # INSERT IMAGE PATH
+print(YOLO().main("img/cookbookCV_2.png")) # INSERT IMAGE PATH
