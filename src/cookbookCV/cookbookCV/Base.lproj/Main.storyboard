@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,33 +15,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZx-JZ-yf1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="501"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cookbookCV 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cZx-JZ-yf1">
+                                <rect key="frame" x="0.0" y="-9" width="414" height="589"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="589" id="tvt-ia-llX"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dod-9w-NL2">
-                                <rect key="frame" x="176" y="509" width="63" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25727179646492004" green="0.52624040842056274" blue="0.51137930154800415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dod-9w-NL2">
+                                <rect key="frame" x="127" y="588" width="161" height="114"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.26560845048895843" green="0.64304335531175449" blue="0.60724729404948996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="camera" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.30891516672694858" green="0.64304335531175449" blue="0.62749134559988318" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PcN-Ls-7pJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tn-hN-fMR">
-                                <rect key="frame" x="136" y="594" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Upload Picture"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tn-hN-fMR">
+                                <rect key="frame" x="127" y="710" width="161" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="s06-Et-GrC"/>
+                                </constraints>
+                                <color key="tintColor" red="0.26560845049999998" green="0.64304335530000001" blue="0.60724729399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="square.and.arrow.up" catalog="system"/>
                                 <connections>
                                     <action selector="uploadPhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ghn-1s-8U1"/>
+                                    <segue destination="Wg3-X0-AiO" kind="presentation" modalPresentationStyle="fullScreen" id="bZS-Md-H4k"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="6hU-ak-jOV"/>
+                            <constraint firstItem="dod-9w-NL2" firstAttribute="top" secondItem="cZx-JZ-yf1" secondAttribute="bottom" constant="8" id="K6P-ZI-bSP"/>
+                            <constraint firstItem="cZx-JZ-yf1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-53" id="RHQ-Tl-RdT"/>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="trailing" secondItem="dod-9w-NL2" secondAttribute="trailing" id="Tf9-Na-i8p"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="1Tn-hN-fMR" secondAttribute="bottom" constant="-34" id="WQv-Oy-edq"/>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="top" secondItem="dod-9w-NL2" secondAttribute="bottom" constant="8" id="YHX-Bj-3Xt"/>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="leading" secondItem="dod-9w-NL2" secondAttribute="leading" id="YNq-h0-p0a"/>
+                            <constraint firstItem="cZx-JZ-yf1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cuH-6Q-mYq"/>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ivd-lS-Cvi"/>
+                            <constraint firstItem="1Tn-hN-fMR" firstAttribute="centerX" secondItem="cZx-JZ-yf1" secondAttribute="centerX" id="s5y-7i-J1g"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -50,10 +68,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+            <point key="canvasLocation" x="131.8840579710145" y="133.92857142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TWP-D2-qGS">
+            <objects>
+                <viewController id="Wg3-X0-AiO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nIP-wz-QyG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="QXD-m0-9dg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8NX-Co-BvZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="134"/>
         </scene>
     </scenes>
     <resources>
         <image name="camera" catalog="system" width="64" height="48"/>
+        <image name="cookbookCV 2.png" width="623" height="270"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
     </resources>
 </document>
