@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import argparse
 import time
-#from 'app/app.py' import get_recipes
+from app import *
 
 class YOLO():
     def main(self, image_path):
