@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		6A7E1BE324BF7BDD00EFE134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BE124BF7BDD00EFE134 /* LaunchScreen.storyboard */; };
 		6A7E1BEB24BF7C0E00EFE134 /* cookbookCV 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */; };
 		6A7E1BED24BF836000EFE134 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E1BEC24BF836000EFE134 /* Podfile */; };
+		6A82EFC924DB1EB4005EB153 /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A82EFC824DB1EB4005EB153 /* linkedin.png */; };
+		6A82EFCB24DB1F49005EB153 /* shashankPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A82EFCA24DB1F49005EB153 /* shashankPic.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		6A7E1BE424BF7BDD00EFE134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cookbookCV 2.png"; sourceTree = "<group>"; };
 		6A7E1BEC24BF836000EFE134 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6A82EFC824DB1EB4005EB153 /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linkedin.png; path = Assets.xcassets/linkedin.png; sourceTree = "<group>"; };
+		6A82EFCA24DB1F49005EB153 /* shashankPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shashankPic.jpeg; path = Assets.xcassets/shashankPic.jpeg; sourceTree = "<group>"; };
 		D86587F525ACEC4DCD78B006 /* Pods-cookbookCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbookCV.release.xcconfig"; path = "Target Support Files/Pods-cookbookCV/Pods-cookbookCV.release.xcconfig"; sourceTree = "<group>"; };
 		FC3FBA572EB13B182DCDF6F5 /* Pods_cookbookCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookbookCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,7 +64,6 @@
 				212E6E1A4FDD5526208EA435 /* Pods-cookbookCV.debug.xcconfig */,
 				D86587F525ACEC4DCD78B006 /* Pods-cookbookCV.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,6 +93,8 @@
 				6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */,
 				6A7E1BEC24BF836000EFE134 /* Podfile */,
 				6A7E1BDC24BF7BDB00EFE134 /* Main.storyboard */,
+				6A82EFCA24DB1F49005EB153 /* shashankPic.jpeg */,
+				6A82EFC824DB1EB4005EB153 /* linkedin.png */,
 				6A7E1BDF24BF7BDD00EFE134 /* Assets.xcassets */,
 				6A7E1BE124BF7BDD00EFE134 /* LaunchScreen.storyboard */,
 				6A7E1BEA24BF7C0E00EFE134 /* cookbookCV 2.png */,
@@ -160,7 +165,9 @@
 			files = (
 				6A7E1BED24BF836000EFE134 /* Podfile in Resources */,
 				6A7E1BE324BF7BDD00EFE134 /* LaunchScreen.storyboard in Resources */,
+				6A82EFCB24DB1F49005EB153 /* shashankPic.jpeg in Resources */,
 				6A7E1BEB24BF7C0E00EFE134 /* cookbookCV 2.png in Resources */,
+				6A82EFC924DB1EB4005EB153 /* linkedin.png in Resources */,
 				6A7E1BE024BF7BDD00EFE134 /* Assets.xcassets in Resources */,
 				6A7E1BDE24BF7BDB00EFE134 /* Main.storyboard in Resources */,
 			);
