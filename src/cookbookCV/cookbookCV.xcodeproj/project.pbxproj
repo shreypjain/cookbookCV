@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60AFA52743B0663B040B91A0 /* Pods_cookbookCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FBA572EB13B182DCDF6F5 /* Pods_cookbookCV.framework */; };
+		6A0D58FA24E0538700A94812 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D58F924E0538700A94812 /* RecipeViewController.swift */; };
 		6A7E1BD724BF7BDB00EFE134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */; };
 		6A7E1BD924BF7BDB00EFE134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */; };
 		6A7E1BDB24BF7BDB00EFE134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		212E6E1A4FDD5526208EA435 /* Pods-cookbookCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbookCV.debug.xcconfig"; path = "Target Support Files/Pods-cookbookCV/Pods-cookbookCV.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0D58F924E0538700A94812 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		6A7E1BD324BF7BDB00EFE134 /* cookbookCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookbookCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				6A7E1BD624BF7BDB00EFE134 /* AppDelegate.swift */,
 				6A7E1BD824BF7BDB00EFE134 /* SceneDelegate.swift */,
 				6A7E1BDA24BF7BDB00EFE134 /* ViewController.swift */,
+				6A0D58F924E0538700A94812 /* RecipeViewController.swift */,
 				6A7E1BEC24BF836000EFE134 /* Podfile */,
 				6A7E1BDC24BF7BDB00EFE134 /* Main.storyboard */,
 				6A82EFD224DBAE1C005EB153 /* InfoViewController.swift */,
@@ -237,6 +240,7 @@
 				6A7E1BD724BF7BDB00EFE134 /* AppDelegate.swift in Sources */,
 				6A82EFD324DBAE1C005EB153 /* InfoViewController.swift in Sources */,
 				6A7E1BD924BF7BDB00EFE134 /* SceneDelegate.swift in Sources */,
+				6A0D58FA24E0538700A94812 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
