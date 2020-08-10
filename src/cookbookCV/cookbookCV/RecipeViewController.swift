@@ -24,6 +24,7 @@ class RecipeViewController: UIViewController {
         settableViewDelegates()
         tableView.rowHeight = 100
         //register cells
+        tableView.register(RecipeCell.self, forCellReuseIdentifier: "RecipeItem")
         //set constraints
     }
     /*
@@ -47,7 +48,9 @@ extension RecipeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeItem") as! RecipeCell
+        
+        return cell
     }
     
     
