@@ -15,12 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cookbookCV 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr6-mf-HBB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cookbookCV 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr6-mf-HBB">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qr6-mf-HBB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Epj-hf-HgX"/>
+                            <constraint firstAttribute="bottom" secondItem="Qr6-mf-HBB" secondAttribute="bottom" id="UTx-3P-kXr"/>
+                            <constraint firstItem="Qr6-mf-HBB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VpD-Mi-vlo"/>
+                            <constraint firstItem="Qr6-mf-HBB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ytH-g6-blO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
