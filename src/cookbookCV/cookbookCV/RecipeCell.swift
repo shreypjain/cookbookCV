@@ -15,15 +15,10 @@ class RecipeCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        configureRecipeLabel()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configureRecipeLabel() {
-        recipeLabel.numberOfLines = 1
-        recipeLabel.adjustsFontSizeToFitWidth = true
-    }
 }
